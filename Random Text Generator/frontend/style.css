@@ -1,0 +1,47 @@
+body {
+    background: rgb(255, 131, 131);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.content-table {
+    height: 300px;
+    width: 560px;
+    background-color: rgb(157, 55, 55);
+    border-radius: 50px;
+    margin: auto;
+    padding: 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 45px;
+    text-align: center;
+}
+
+#usernameGeneratedCode{
+    font-family: monospace, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(255, 131, 131);
+    text-align: center;
+    
+}
+
+#actionButtons{
+    position: absolute;
+    bottom: 50px;
+    left: 220px;
+    display: inline-block;
+}
